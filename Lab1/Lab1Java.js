@@ -11,14 +11,6 @@ triangle(значення1, "тип1", значення2, "тип2")
   "opposite angle"  — кут, протилежний до катета
   "angle"           — гострий кут, коли задана гіпотенуза
 
-Приклади:
-  triangle(4, "leg", 8, "hypotenuse");
-  triangle(8, "hypotenuse", 4, "leg");
-  triangle(3, "leg", 4, "leg");
-  triangle(5, "hypotenuse", 30, "angle");
-  triangle(4, "leg", 30, "adjacent angle");
-  triangle(4, "leg", 30, "opposite angle");
-
 Результат:
   c — гіпотенуза
   a, b — катети
