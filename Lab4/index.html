@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="JavaScript4Lab.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <h1>Clicker Game</h1>
+
+        <section id="startScreen">
+            <h2>Налаштування гри</h2>
+
+            <label for="difficulty">Рівень складності:</label>
+            <select id="difficulty">
+                <option value="">Оберіть складність</option>
+                <option value="easy">Легкий</option>
+                <option value="medium">Середній</option>
+                <option value="hard">Важкий</option>
+            </select>
+
+            <label for="color">Колір квадрата:</label>
+            <select id="color">
+                <option value="">Оберіть колір</option>
+                <option value="red">Червоний</option>
+                <option value="green">Зелений</option>
+                <option value="blue">Синій</option>
+                <option value="orange">Помаранчевий</option>
+                <option value="purple">Фіолетовий</option>
+            </select>
+
+            <button id="startButton">Почати гру</button>
+        </section>
+
+        <section id="gameScreen" class="hidden">
+            <div class="gameInfo">
+                <p>Очки: <span id="score">0</span></p>
+                <p>Час: <span id="timer">0</span> с</p>
+            </div>
+
+            <div id="gameArea">
+                <div id="target"></div>
+            </div>
+
+            <button id="restartButton" class="hidden">
+                Нова гра
+            </button>
+        </section>
+    </main>
+</body>
+</html>
